@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
                 new Project("BMI Calculator", "A real life working BMI calculator teaching me Variables, Methods, and Conditional Logic",R.drawable.tape),
                 new Project("Inches Converter", "A basic converter to convert Inches to meters (My personal calculator app made on my own)",R.drawable.calculator),
                 new Project("Ichiraku Ramen", "A menu app for a fictional restaurant in Naruto's anime, learning about Activities, Classes & Objects, Arrays, Intents, and Listview",R.drawable.ichiraku),
-                new Project("Bucket List App", "A bucket list app , teaches me about new layout style like 'gradient','weight','@drawableRes' Annotation  ",R.drawable.androiddev)
+                new Project("Bucket List App", "A bucket list app , teaches me about new layout style like 'gradient','weight','@drawableRes' Annotation  ",R.drawable.androiddev),
+                new Project("My-Self Promo App", "A Self Promo App , teaches me about using kotlin to make My-Self promo app and how kotlin do a null safety,function,data class,Data passing to another activity with the \"Intent\"  ",R.drawable.self_promo)
         };
 
         ProjectsAdapter adapter = new ProjectsAdapter(projects);
